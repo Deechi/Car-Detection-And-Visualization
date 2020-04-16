@@ -20,6 +20,9 @@ u &thinsp; : &thinsp; 全画素値の平均 &emsp;
 std &thinsp; : &thinsp; 全画素値の標準偏差 &emsp;
 ## 結果
 入力画像の駐車状況に応じたヒートマップが出力できていることが分かる。<br><br>
-<img src = "https://user-images.githubusercontent.com/63439267/79416563-eb00e280-7fea-11ea-8b35-9ddda62c7880.jpg" width = "300" height = "180"> &emsp; &rArr;
+<img src = "https://user-images.githubusercontent.com/63439267/79416563-eb00e280-7fea-11ea-8b35-9ddda62c7880.jpg" width = "300" height = "180"> &emsp;
 <img src = "https://user-images.githubusercontent.com/63439267/79416334-5e562480-7fea-11ea-9b78-47e58f86df41.jpg" width = "300" height = "180">
+## 今後の課題
+今回は画素値を正規化することで多少の照明条件の変化には対応することができた。
+今後は単純な明度値ではなく、照明条件に影響されない特徴量を利用することが課題である。
 
