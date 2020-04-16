@@ -8,7 +8,8 @@
 ## データ
 駐車場に設置したカメラで15分ごとに撮影した画像を用いる。  
   
-<img src = "https://user-images.githubusercontent.com/63439267/79410632-f13b9280-7fdb-11ea-880c-8a5a6cadc6b3.jpg" width = "300" height = "180">  
+<img src = "https://user-images.githubusercontent.com/63439267/79410632-f13b9280-7fdb-11ea-880c-8a5a6cadc6b3.jpg" width = "300" height = "180">
+  
 ## 手法
 背景差分法は照明変化に弱いというデメリットがある。  
 今回は各画素値を正規化することで照明変化に頑健な手法を実装した。  
