@@ -18,4 +18,8 @@
 x &thinsp; : &thinsp; 各画素値 &emsp;
 u &thinsp; : &thinsp; 全画素値の平均 &emsp;
 std &thinsp; : &thinsp; 全画素値の標準偏差 &emsp;
+# 結果
+入力画像の駐車状況に応じたヒートマップが出力できていることが分かる。
+<img src = "https://user-images.githubusercontent.com/63439267/79416334-5e562480-7fea-11ea-9b78-47e58f86df41.jpg" width = "300" height = "180"> &emsp; &rArr;
+<img src = "https://user-images.githubusercontent.com/63439267/79416334-5e562480-7fea-11ea-9b78-47e58f86df41.jpg" width = "300" height = "180">
 
