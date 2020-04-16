@@ -12,5 +12,10 @@
   
 ## 手法
 背景差分法は照明変化に弱いというデメリットがある。  
-今回は各画素値を正規化することで照明変化に頑健な手法を実装した。  
-<img src = "https://user-images.githubusercontent.com/63439267/79412123-aface680-7fdf-11ea-8c9e-46e8317caabd.PNG" width = "100" height = "30">  
+今回は各画素値を正規化することで照明変化に頑健な手法を実装した。
+  
+<img src = "https://user-images.githubusercontent.com/63439267/79412123-aface680-7fdf-11ea-8c9e-46e8317caabd.PNG" width = "100" height = "30"> &emsp;
+x &thinsp; : &thinsp; 各画素値 &emsp;
+u &thinsp; : &thinsp; 全画素値の平均 &emsp;
+std &thinsp; : &thinsp; 全画素値の標準偏差 &emsp;
+
